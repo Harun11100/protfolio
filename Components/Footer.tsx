@@ -17,7 +17,7 @@ const Footer = () => {
         <p className='text-white-200 md:mt-10 my-5 text-center'>
           Reach out to me today and let&apos;s disscuss how I can help you achieve your goals
         </p>
-        <a href="mhchowdhury886@gmail.com">
+        <a href="https://mhchowdhury886@gmail.com">
          <MagicButton
          title="Let's get in touch"
          icon={<FaLocationArrow/>}
@@ -30,7 +30,8 @@ const Footer = () => {
       <div className='flex items-center justify-center md:gap-3 gap-7'>
       {
             socialMedia.map((profile)=><div key={profile.id} className='w-10 h-10 mt-20 rounded-lg cursor-pointer flex justify-center items-center backdrop:filter backdrop-blur-lg saturate-150 bg-opacity-55 bg-black-200'>
-                  <img src={profile.img} alt={profile.img} width={20} height={20}/>
+                  <a href={profile.link}><img src={profile.img} alt={profile.img} width={20} height={20}/></a>
+                  
             </div>)
       }
 

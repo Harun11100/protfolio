@@ -13,7 +13,7 @@ export const navItems = [
         className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
         imgClassName: "w-full h-full",
         titleClassName: "justify-end",
-        img: "/b1.svg",
+        img: "/colaboration.jpeg",
         spareImg: "",
       },
       {
@@ -29,7 +29,7 @@ export const navItems = [
       {
         id: 3,
         title: "My tech stack",
-        description: "I constantly try to improve",
+        description: "learning new technology is my passion",
         className: "lg:col-span-2 md:col-span-3 md:row-span-2",
         imgClassName: "",
         titleClassName: "justify-center",
@@ -49,7 +49,7 @@ export const navItems = [
     
       {
         id: 5,
-        title: "Currently building a JS Animation library",
+        title:"Love to work with team",
         description: "The Inside Scoop",
         className: "md:col-span-3 md:row-span-2",
         imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
@@ -72,68 +72,68 @@ export const navItems = [
     export const projects = [
       {
         id: 1,
-        title: "3D Solar System Planets to Explore",
-        des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
+        title: "A Modern Hotel Management system",
+        des: "Make the job easy and enjoyable to manage customer check-in or informations ",
         img: "/project1.png",
-        iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-        link: "https://github.com/adrianhajdin?tab=repositories",
+        iconLists: ["/re.svg", "/tail.svg", "/ts.svg"],
+        link: "https://github.com/Harun11100/Hotel-manager",
       },
       {
         id: 2,
-        title: "Yoom - Video Conferencing App",
-        des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
+        title: "Hotel-Booking Website",
+        des: "Simplify hotel booking process and make them faster and make payment in a secure way using cripto currency",
         img: "/project2.png",
         iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-        link: "https://github.com/adrianhajdin/zoom-clone",
+        link: "https://github.com/Harun11100/Online-hotel-booking",
       },
       {
         id: 3,
-        title: "AI Image SaaS - Canva Application",
-        des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
+        title: "Manage your packing",
+        des: "Make sure your packing list before travel",
         img: "/project3.png",
-        iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-        link: "https://github.com/adrianhajdin/ai_saas_app",
+        iconLists: ["/re.svg", "/tail.svg"],
+        link: "https://github.com",
       },
       {
         id: 4,
-        title: "Animated Apple Iphone 3D Website",
-        des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
+        title: "Pizza bazar",
+        des: "pizzer menu to order the best one and best price",
         img: "/project4.png",
-        iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-        link: "https://github.com/adrianhajdin/iphone",
+        iconLists: ["/re.svg", "/tail.svg"],
+        link: "https://github.com",
       },
     ];
     
     export const testimonials = [
       {
         quote:
-          "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-        name: "Michael Johnson",
-        title: "Director of AlphaStream Technologies",
+          "sdff isdfosd fisdjf fsfp fpsojf pdsf dfs pdsfp sf dfps",
+        name: "Hridoy Chowdhury",
+        title: "Director of XYZ",
       },
       {
         quote:
-          "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-        name: "Michael Johnson",
-        title: "Director of AlphaStream Technologies",
+          "Collaborating with Harun .........................................",
+        name: "Hridoy Chowdhury",
+        title: "Director of XYZ",
       },
       {
         quote:
-          "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-        name: "Michael Johnson",
-        title: "Director of AlphaStream Technologies",
+          "Collaborating with Harun .........................................",
+        name: "Hridoy Chowdhury",
+        title: "Director of XYZ",
       },
       {
         quote:
-          "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-        name: "Michael Johnson",
-        title: "Director of AlphaStream Technologies",
+          "Collaborating with Harun ..........................................",
+        name: "Hridoy Chowdhury",
+        title: "Director of XYZ",
       },
       {
         quote:
-          "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-        name: "Michael Johnson",
-        title: "Director of AlphaStream Technologies",
+          "Collaborating with Harun ........................................",
+        name: "Hridoy Chowdhury",
+        title: "Director of XYZ",
       },
     ];
     
@@ -188,13 +188,13 @@ export const navItems = [
       {
         id: 3,
         title: "Freelance App Dev Project",
-        desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
+        desc: "develop a mobile app for a client, from initial concept to deployment on app stores.",
         className: "md:col-span-2", // change to md:col-span-2
         thumbnail: "/exp3.svg",
       },
       {
         id: 4,
-        title: "Lead Frontend Developer",
+        title: "Frontend Developer",
         desc: "Developed and maintained user-facing features using modern frontend technologies.",
         className: "md:col-span-2",
         thumbnail: "/exp4.svg",
@@ -205,13 +205,16 @@ export const navItems = [
       {
         id: 1,
         img: "/git.svg",
+        link:'https://github.com/Harun11100'
       },
       {
         id: 2,
         img: "/twit.svg",
+        link:'https://github.com/Harun11100'
       },
       {
         id: 3,
         img: "/link.svg",
+        link:'https://www.linkedin.com/in/harun-or-rashid-b440a7292/'
       },
     ];
