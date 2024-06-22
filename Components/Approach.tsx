@@ -12,13 +12,13 @@ export function Approach() {
       </h1>
       <div className="my-20 flex flex-col lg:flex-row items-center justify-center w-full gap-4 mx-auto">
         <Card title="Planing & Strategy" icon={<AceternityIcon order="Phase 1"/>}
-        description="Panning in photography refers to the horizontal movement of a camera to follow a moving subject, creating a dynamic effect where the subject remains sharp while the background blurs. In audio engineering, panning involves adjusting the distribution of sound across the stereo field to create spatial effects. Strategy is a comprehensive plan designed to achieve long-term goals, involving goal setting, analysis of internal and external factors, and formulating actionable steps to reach desired outcomes." >
+        description="Planning & Strategy suggests the initial stage of a project or initiative where plans and strategic frameworks are developed to guide subsequent actions and decisions. It emphasizes laying down the foundation, setting goals, and outlining the strategic direction to achieve desired outcomes efficiently." >
           <CanvasRevealEffect
             animationSpeed={5.1}
             containerClassName="bg-emerald-900"
           />
         </Card>
-        <Card title="Development Model"  description="Panning in photography refers to the horizontal movement of a camera to follow a moving subject, creating a dynamic effect where the subject remains sharp while the background blurs. In audio engineering, panning involves adjusting the distribution of sound across the stereo field to create spatial effects. Strategy is a comprehensive plan designed to achieve long-term goals, involving goal setting, analysis of internal and external factors, and formulating actionable steps to reach desired outcomes." icon={<AceternityIcon order="Phase 2" />} >
+        <Card title="Development Model"  description="I am actively involved in following a structured approach or framework to contribute to the creation, enhancement, or maintenance of products or systems." icon={<AceternityIcon order="Phase 2" />} >
           <CanvasRevealEffect
             animationSpeed={3}
             containerClassName="bg-black"
@@ -31,7 +31,7 @@ export function Approach() {
           {/* Radial gradient for the cute fade */}
           <div className="absolute inset-0 [mask-image:radial-gradient(400px_at_center,white,transparent)] bg-black/50 dark:bg-black/90" />
         </Card>
-        <Card title="Testing & Deployment" description="Panning in photography refers to the horizontal movement of a camera to follow a moving subject, creating a dynamic effect where the subject remains sharp while the background blurs. In audio engineering, panning involves adjusting the distribution of sound across the stereo field to create spatial effects. Strategy is a comprehensive plan designed to achieve long-term goals, involving goal setting, analysis of internal and external factors, and formulating actionable steps to reach desired outcomes." icon={<AceternityIcon order="Phase 3"/>}>
+        <Card title="Testing & Deployment" description="I am involved in testing and deployment processes, ensuring that software or systems meet quality standards and are successfully launched into operational environments" icon={<AceternityIcon order="Phase 3"/>}>
           <CanvasRevealEffect
             animationSpeed={3}
             containerClassName="bg-sky-600"
@@ -59,7 +59,7 @@ const Card = ({
     <div
       onMouseEnter={() => setHovered(true)}
       onMouseLeave={() => setHovered(false)}
-      className="border border-black/[0.2] group/canvas-card flex items-center justify-center dark:border-white/[0.2]  max-w-sm w-full mx-auto p-4 relative h-[30rem] relative"
+      className="border border-black/[0.2] group/canvas-card flex items-center justify-center dark:border-white/[0.2]  max-w-sm w-full mx-auto p-4 relative h-[30rem]"
     >
       <Icon className="absolute h-6 w-6 -top-3 -left-3 dark:text-white text-black" />
       <Icon className="absolute h-6 w-6 -bottom-3 -left-3 dark:text-white text-black" />

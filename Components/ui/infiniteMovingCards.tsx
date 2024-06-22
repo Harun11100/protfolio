@@ -1,6 +1,7 @@
 "use client";
 
 import { cn } from "@/utils/cn";
+import Image from "next/image";
 import React, { useEffect, useState } from "react";
 
 export const InfiniteMovingCards = ({
@@ -45,7 +46,7 @@ export const InfiniteMovingCards = ({
   }
   const getDirection = () => {
     if (containerRef.current) {
-      if (direction === "left") {
+      if (direction === "right") {
         containerRef.current.style.setProperty(
           "--animation-direction",
           "forwards"
@@ -99,16 +100,16 @@ export const InfiniteMovingCards = ({
                 aria-hidden="true"
                 className="user-select-none -z-1 pointer-events-none absolute -left-0.5 -top-0.5 h-[calc(100%_+_4px)] w-[calc(100%_+_4px)]"
               ></div>
-              <span className=" relative z-20 text-sm leading-[1.6] text-white font-normal">
+              <span className=" relative z-20 text-xl leading-[1.6] text-white font-normal">
                 {item.quote}
               </span>
               <div className="relative z-20 mt-6 flex flex-row items-center">
                 <span className="flex flex-col gap-1">
                   <div className="me-3 "> 
-                        <img src="/profile.gif" alt="avatar" />
+                        <Image width={40} height={40} src="/profile.svg" alt="avatar" />
                   </div>
                   <div className=" flex flex-col gap-1 ">
-                  <span className=" leading-[1.6] text-white text-xl font-bold">
+                  <span className=" leading-[1.6] text-white text-2xl font-semibold">
                     {item.name}
                   </span>
                   <span className=" text-sm leading-[1.6] text-white-200 font-normal">

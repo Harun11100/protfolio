@@ -3,6 +3,7 @@ import MagicButton from './ui/MagicButton'
 import { FaLocationArrow } from 'react-icons/fa6'
 import { socialMedia } from '@/data'
 import { ImGift } from 'react-icons/im'
+import Image from 'next/image'
 
 const Footer = () => {
   return (
@@ -17,7 +18,8 @@ const Footer = () => {
         <p className='text-white-200 md:mt-10 my-5 text-center'>
           Reach out to me today and let&apos;s disscuss how I can help you achieve your goals
         </p>
-        <a href="https://mhchowdhury886@gmail.com">
+     
+        <a href="https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile">
          <MagicButton
          title="Let's get in touch"
          icon={<FaLocationArrow/>}
@@ -30,7 +32,10 @@ const Footer = () => {
       <div className='flex items-center justify-center md:gap-3 gap-7'>
       {
             socialMedia.map((profile)=><div key={profile.id} className='w-10 h-10 mt-20 rounded-lg cursor-pointer flex justify-center items-center backdrop:filter backdrop-blur-lg saturate-150 bg-opacity-55 bg-black-200'>
-                  <a href={profile.link}><img src={profile.img} alt={profile.img} width={20} height={20}/></a>
+                  <a href={profile.link}>
+                        <Image
+                        src={profile.img}
+                        alt={profile.img} width={20} height={20}/></a>
                   
             </div>)
       }
@@ -38,7 +43,7 @@ const Footer = () => {
       </div>
       <div className='flex mt-5  md:flex-row flex-col justify-center items-center'>
             <p className='md:text-base text-sm md:font-normal font-light text-center'>
-                  Copyright 2024 Md Harun Or Rashid
+                  Copyright &copy; 2024 Md Harun Or Rashid
             </p>
       </div>
    </footer>

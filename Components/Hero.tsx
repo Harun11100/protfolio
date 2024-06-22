@@ -22,19 +22,21 @@ const Hero = () => {
     </div>
     <div className=' flex justify-center relative my-20 z-10' >
       <div className='max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center'>
-            <h2 className='uppercase tracking-widest text-xs text-center text-blue-100 max-w-80 '>
-                  Dynamic Web MAGIC  with Next.js
+            <h2 className='uppercase tracking-widest text-s text-center text-blue-100 max-w-80 '>
+                Welcome to My Portfolio
             </h2>
             <TextGenerateEffect 
             className='text-center text-[40px] 
             md:text-5xl lg:text-6xl'
-            words='Transform Concepts into Seamless User Experiences '/>
+            words='Crafting IT Solutions and Enhancing Productivity'/>
             
-
-            <p className='text-center md:tracking-wider mb-5
-            text-sm md:text-lg lg:text-2xl'>
-                  Hi ,I &apos;m Harun ,a Next.js Developer 
-            </p>
+            <TextGenerateEffect 
+            className='text-center text-white text-[15px] 
+            md:text-xl lg:text-3xl'
+            words=' Hi there ! I am Md Harun Or Rashid, a specialize in creating dynamic web applications and optimizing business processes with advanced tools.'/>
+            
+          
+        
             <a href='#about'>
             <MagicButton 
             title='Show my work ' position='right' icon={<FaLocationArrow/>}  otherClasses=''  />
