@@ -3,7 +3,6 @@
 'use client'
 
 import { useState } from "react";
-import Lottie from "react-lottie";
 import { IoCopyOutline } from "react-icons/io5";
 import { HiClipboardCopy } from "react-icons/hi";
 import { cn } from "@/utils/cn";
@@ -123,14 +122,7 @@ export const BentoGridItem = ({
           {id === 6 && (
             <div className="mt-5 relative">
               <div className="absolute -bottom-5 right-0">
-                <Lottie options={{
-                  loop: copied,
-                  autoplay: copied,
-                  animationData,
-                  rendererSettings: {
-                    preserveAspectRatio: 'xMidYMid slice'
-                  }
-                }} />
+               
               </div>
               <MagicButton title={copied ? 'Email Copied' : 'Copy my email'}
                 icon={<HiClipboardCopy />}
